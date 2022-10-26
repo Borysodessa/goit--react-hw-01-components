@@ -17,6 +17,7 @@ export function FriendList({friends}) {
   );
 }
 
+
 FriendList.prototype = {
   isOnline: PropTypes.bool.isRequired,
   avatar: PropTypes.string.isRequired,
